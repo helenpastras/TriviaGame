@@ -7,27 +7,38 @@
         <title>West Side Trivia Game</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-        <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="/Users/hell-en/workspace/TriviaGame/assets/css/style.css"/>
+        
     </head>
     <body>
-        <div class="box" id="Trivia">
-            <h1>L.A. Trivia: How well do you know our West Side?</h1>
-            <!-- <form id ="questions" name="questions">
-                <p>Where is the Grand Canal?</p>
-                <input type= "radio" id="answers" >        
-                <p>What is on the Santa Monica Pier making it recognizable at a glance?</p>
-
-                <p>What's the name of the famous body building area in Venice?</p>
-            </form>   -->
+        <div class="container" id="game">
+            <div class="row">
+                <h1 class="title-area">L.A. Trivia: How well do you know our West Side?</h1>
+           </div>
+            <div class="start" id="buttons">
+                <button>Start Trivia</button>
+           </div>
         </div>
-        <button id="submit">Get Results</button>
-        <div id="results"></div>
+        <div class="trivia-container">
+            <!-- Timer div -->
+            <div id="time-left"></div>
+            <!-- Questions div -->
+            <div id="questions"></div>
+            <!-- Submit button -->
+            <div id="submit"></div>
+            <!-- Resutls -->
+            <div id="results"></div>
+        </div>
         
-        <script src="assets/javascript/app.js"></script>
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Script -->
+        <script type="text/javascript" src="/Users/hell-en/workspace/TriviaGame/assets/javascript/app-copy.js"></script>
+
 
     </body>
 </html>

@@ -1,3 +1,7 @@
 body {
-    background-image: url("../assets/images/beach-palm-trees.jpg");
+    background-image: url("/Users/hell-en/workspace/TriviaGame/assets/images/beach-palm-trees.jpg");
+}
+h1 {
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
