@@ -1,7 +1,23 @@
 body {
-    background-image: url("/Users/hell-en/workspace/TriviaGame/assets/images/beach-palm-trees.jpg");
+    background-image: url("../images/beach-palm-trees.jpg");
+    text-align: center;
 }
 h1 {
     color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.trivia-container,
+#results {
+    display: none;
+}
+
+.trivia-container {
+    background-color: rgba(255,255,255,.75);
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.answers {
+    margin-bottom: 12px;
 }
