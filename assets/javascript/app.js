@@ -91,10 +91,9 @@ $(document).ready(function () {
 		event.preventDefault();
 		console.log("hi");
 		$(".trivia-container").show();
-		$(".time-left").show;
+		$(".time-left").show();
 		$(this).hide();
 		buildTrivia(questions);
-	})
 
 	// Set the timer
 	function timer() {
@@ -118,7 +117,7 @@ $(document).ready(function () {
 	}
 	// run timer
 	timer();
-
+})
 	// Build The trivia game
 	function buildTrivia() {
 		console.log(questions);
