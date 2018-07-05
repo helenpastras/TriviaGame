@@ -80,15 +80,15 @@ var questions = [
 // Timer variable
 var time = 60;
 
+// Upon opening the page, the trivia container inclucing the title and later the questions, will be loaded, as well as
+// the button to start teh game. 
 $(document).ready(function () {
 	var submitButton = document.getElementById('submit');
-	//  variable placements:
+	
+	//  variable placements
 	var triviaContainer = document.getElementById('trivia');
-	// Create a function that creates the start button and initial screen
-
 
 	//On perssing Start Trivia, start the game: write function to start game
-
 	$(".start-button").on("click", function (event) {
 		event.preventDefault();
 		console.log("hi");
@@ -117,7 +117,7 @@ $(document).ready(function () {
 	function stop() {
 		clearInterval(intervalId);
 	}
-
+	// run timer
 	timer();
 
 	// Build The trivia game
