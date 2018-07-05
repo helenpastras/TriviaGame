@@ -75,8 +75,6 @@ var questions = [
 ];
 
 
-
-
 // Timer variable
 var time = 60;
 
@@ -93,6 +91,7 @@ $(document).ready(function () {
 		event.preventDefault();
 		console.log("hi");
 		$(".trivia-container").show();
+		$(".time-left").show;
 		$(this).hide();
 		buildTrivia(questions);
 	})
